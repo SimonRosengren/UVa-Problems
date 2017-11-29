@@ -86,6 +86,8 @@ string CheckIfSumCorrect(string str)
 	}
 	else
 		return "Incorrect";
+
+
 }
 
 int main()
@@ -93,9 +95,10 @@ int main()
 	string input;
 	while (cin >> input)
 	{
-		if (input == "#")
+		if (input == "#")	 
 			break;
 		cout << CheckIfSumCorrect(input) << endl;
+
 	}
     return 0;
 }
